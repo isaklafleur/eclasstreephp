@@ -1,0 +1,90 @@
+
+
+table { width:auto;  }
+table.toptab, table.full, table.cart{
+	width:100%;
+}
+table.full{
+	-webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+ table.cart{
+	margin-top:10px;
+	-webkit-box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+  	box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
+}
+table.toptab {
+	margin-bottom:10px;
+}
+table.toptab tbody td {
+	border:0;
+}
+table caption { font-variant:small-caps; }
+table.fixed { table-layout:fixed; }
+.full th, .full td { padding:0.5em; background:#e7e7e7;}
+  thead th { color:#000;  } 
+  tbody th { background:#e7e7e7; color:#333; } /*#e0e0e0*/
+/*  tbody th[scope="row"], tbody th.sub { background:#f0f0f0; }*/
+
+  tbody th {  text-align:left; } /*border-bottom:1px solid #fff;*/
+  tbody td { border-bottom:1px solid #e7e7e7; }
+tbody tr{
+	border-bottom:3px solid white;
+}
+tbody tr th{
+	padding:5px;
+}
+tbody tr td{
+	padding:5px !important;
+}
+  tbody tr:hover th[scope="row"],
+	table.cart tbody tr:hover tbody th.sub { background:#f7f7f7; }
+	table.cart tbody tr:hover td { background:#f7f7f7; }
+	table.cart td { line-height:1.5em;}  
+	.cart th{width:30%;}
+table.simpel {border:0; margin:0; padding:0}	
+.topNav a {
+    text-decoration: none;
+    color: #222;
+}
+.topNav {
+    text-align: right;
+    color: #222;
+    padding-right: 1em;
+}
+td h1{
+	    font-size: 18px !important;
+    color: black;
+    font-family: 'trebuchet ms', verdana, arial;
+    padding: 10px;
+    margin: 0;
+}
+td a{
+	font-size:12px;
+	color:black;
+}
+td a:hover{
+	text-decoration:underline;
+}
+#mainright {width:50%;} /*background:#CBEEF9; padding: 1em; */
+.rightFloat{float:right;}
+#main {
+    width: 49%;
+}
+th{
+	font-size:12px !important;
+}
+ul.ui-fancytree.fancytree-container.fancytree-plain.fancytree-treefocus{
+	outline:1px solid white !important;
+	border:1px solid white !important;
+	border-right:1px solid #eee;
+}
+select{
+	font-size:12px;
+}
+ul.classic {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #f7f7f7;
+}
